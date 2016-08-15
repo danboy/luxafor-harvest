@@ -41,10 +41,10 @@ $ cp config.json.sample config.json
 $ crontab -e
 ```
 
-Here's an example cranotab to check for a timer every minute.
+Here's an example crontab to check for a timer every minute.
 
 ```
 * * * * * /usr/local/bin/node /Users/username/Projects/luxafor/harvest/index.js
 ```
 
-Once that's up you should be all set. plug in you luxafor and watch it change.
+Once that's up you should be all set. Plug in you luxafor and watch it change.
