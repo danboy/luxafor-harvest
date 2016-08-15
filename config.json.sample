@@ -1,0 +1,8 @@
+{
+  "harvest": {
+    "subdomain": "yourharvestsubdomain",
+    "email": "harvestemail@example.com",
+    "password": "harvestpassword",
+    "user": 123456
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "luxafor-harvest",
+  "version": "0.0.1",
+  "description": "Set luxafor flag based on harvest timer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Nawara",
+  "license": "ISC",
+  "dependencies": {
+    "harvest": "^0.1.5",
+    "luxafor-api": "^2.0.0"
+  }
+}
