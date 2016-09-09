@@ -10,13 +10,17 @@ harvest = new Harvest({
 device = new Luxafor();
 
 harvest.TimeTracking.daily({of_user: config.harvest.user}, function(err, entries){
-  var busy = false;
+  var color = config.colors.available;
   entries.day_entries.forEach(function(entry, i){
     if(entry.timer_started_at){
-      busy = true;  
+      color = config.colors.working; 
+    }
+    for(var key in config.colors){
+      if(entry.notes.indexOf("("+key+")") > -1){
+	color = config.colors[key];
+      }
     }
     if(i+1 === entries.day_entries.length){
-      color = (busy) ? "#990000" : "#004400"; 
       device.setColor(color);
     }
   });

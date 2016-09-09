@@ -4,5 +4,10 @@
     "email": "harvestemail@example.com",
     "password": "harvestpassword",
     "user": 123456
+  },
+  "colors": {
+    "doNotDisturb": "#990000",
+    "available": "#004400",
+    "working": "#ffbb00"
   }
 }
