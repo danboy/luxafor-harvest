@@ -7,7 +7,8 @@
   },
   "colors": {
     "doNotDisturb": "#990000",
+    "busy": "#990000",
     "available": "#004400",
-    "working": "#ffbb00"
+    "working": "#FFBF00"
   }
 }
