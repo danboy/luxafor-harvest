@@ -10,7 +10,7 @@ harvest = new Harvest({
 device = new Luxafor();
 
 harvest.TimeTracking.daily({of_user: config.harvest.user}, function(err, entries){
-  if(!entries.day_entries) return;
+  if(!entries.day_entries) entries.day_entries = [];
   var color = config.colors.available;
   entries.day_entries.forEach(function(entry, i){
     if(entry.timer_started_at){
