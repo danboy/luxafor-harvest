@@ -22,6 +22,7 @@ harvest.TimeTracking.daily({of_user: config.harvest.user}, function(err, entries
       }
     }
     if(i+1 === entries.day_entries.length){
+      color = config.colors.debug; 
       device.setColor(color);
     }
   });

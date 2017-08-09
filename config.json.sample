@@ -8,6 +8,9 @@
   "colors": {
     "doNotDisturb": "#990000",
     "busy": "#990000",
+    "debug": "#992200",
+    "thinking": "#992200",
+    "headsDown": "#992200",
     "available": "#004400",
     "working": "#FFBF00"
   }
