@@ -18,7 +18,7 @@ harvest.TimeTracking.daily({of_user: config.harvest.user}, function(err, entries
     }
     for(var key in config.colors){
       if(entry.notes.indexOf("("+key+")") > -1){
-	color = config.colors[key];
+        color = config.colors[key];
       }
     }
     if(i+1 === entries.day_entries.length){

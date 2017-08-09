@@ -44,7 +44,16 @@ $ crontab -e
 Here's an example crontab to check for a timer every minute.
 
 ```
-* * * * * /usr/local/bin/node /Users/username/Projects/luxafor/harvest/index.js
+*/1 * * * * /usr/local/bin/node /Users/username/Projects/luxafor/harvest/index.js
 ```
 
 Once that's up you should be all set. Plug in you luxafor and watch it change.
+
+
+In order to set your status based on a timer, add one of the color keys form you config to the task notes in harvest.
+
+For example to be busy:
+
+```
+Im working on this feature (busy).
+```
